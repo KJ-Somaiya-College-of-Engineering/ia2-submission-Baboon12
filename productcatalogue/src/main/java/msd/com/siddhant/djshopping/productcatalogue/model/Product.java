@@ -1,4 +1,4 @@
-package uk.co.danielbryant.djshopping.productcatalogue.model;
+package msd.com.siddhant.djshopping.productcatalogue.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 

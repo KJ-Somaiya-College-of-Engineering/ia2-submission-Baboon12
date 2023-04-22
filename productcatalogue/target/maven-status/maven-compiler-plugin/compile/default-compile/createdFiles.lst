@@ -1,0 +1,6 @@
+msd\com\siddhant\djshopping\productcatalogue\configuration\ProductServiceConfiguration.class
+msd\com\siddhant\djshopping\productcatalogue\resources\ProductResource.class
+msd\com\siddhant\djshopping\productcatalogue\model\Product.class
+msd\com\siddhant\djshopping\productcatalogue\ProductServiceApplication.class
+msd\com\siddhant\djshopping\productcatalogue\services\ProductService.class
+msd\com\siddhant\djshopping\productcatalogue\healthchecks\BasicHealthCheck.class
