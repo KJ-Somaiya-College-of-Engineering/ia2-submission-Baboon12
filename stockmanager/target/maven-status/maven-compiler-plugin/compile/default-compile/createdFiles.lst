@@ -1,0 +1,7 @@
+msd\com\bhavya\djshopping\stockmanager\exceptions\StockNotFoundException.class
+msd\com\bhavya\djshopping\stockmanager\resources\StockResource.class
+msd\com\bhavya\djshopping\stockmanager\repositories\StockRepository.class
+msd\com\bhavya\djshopping\stockmanager\model\Stock.class
+msd\com\bhavya\djshopping\stockmanager\StockManagerApplication.class
+msd\com\bhavya\djshopping\stockmanager\config\DataGenerator.class
+msd\com\bhavya\djshopping\stockmanager\services\StockService.class
