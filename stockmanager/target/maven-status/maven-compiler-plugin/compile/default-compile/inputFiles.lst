@@ -1,7 +1,7 @@
-I:\ia2-submission-Baboon12\stockmanager\src\main\java\ia\com\msd\shopping\stockmanager\config\DataGenerator.java
-I:\ia2-submission-Baboon12\stockmanager\src\main\java\ia\com\msd\shopping\stockmanager\model\Stock.java
-I:\ia2-submission-Baboon12\stockmanager\src\main\java\ia\com\msd\shopping\stockmanager\repositories\StockRepository.java
-I:\ia2-submission-Baboon12\stockmanager\src\main\java\ia\com\msd\shopping\stockmanager\resources\StockResource.java
-I:\ia2-submission-Baboon12\stockmanager\src\main\java\ia\com\msd\shopping\stockmanager\StockManagerApplication.java
-I:\ia2-submission-Baboon12\stockmanager\src\main\java\ia\com\msd\shopping\stockmanager\services\StockService.java
-I:\ia2-submission-Baboon12\stockmanager\src\main\java\ia\com\msd\shopping\stockmanager\exceptions\StockNotFoundException.java
+I:\ia2-submission-Baboon12\stockmanager\src\main\java\in\com\ia\msd\stockmanager\exceptions\StockNotFoundException.java
+I:\ia2-submission-Baboon12\stockmanager\src\main\java\in\com\ia\msd\stockmanager\config\DataGenerator.java
+I:\ia2-submission-Baboon12\stockmanager\src\main\java\in\com\ia\msd\stockmanager\services\StockService.java
+I:\ia2-submission-Baboon12\stockmanager\src\main\java\in\com\ia\msd\stockmanager\StockManagerApplication.java
+I:\ia2-submission-Baboon12\stockmanager\src\main\java\in\com\ia\msd\stockmanager\repositories\StockRepository.java
+I:\ia2-submission-Baboon12\stockmanager\src\main\java\in\com\ia\msd\stockmanager\model\Stock.java
+I:\ia2-submission-Baboon12\stockmanager\src\main\java\in\com\ia\msd\stockmanager\resources\StockResource.java

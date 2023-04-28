@@ -4,7 +4,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>msd.com.siddhant.djshopping</groupId>
+    <groupId>in.com.ia.msd</groupId>
     <artifactId>productcatalogue</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
@@ -67,7 +67,7 @@
                                         implementation="org.apache.maven.plugins.shade.resource.ServicesResourceTransformer"/>
                                 <transformer
                                         implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
-                                    <mainClass>msd.com.siddhant.djshopping.productcatalogue.ProductServiceApplication</mainClass>
+                                    <mainClass>in.com.ia.msd.productcatalogue.ProductServiceApplication</mainClass>
                                 </transformer>
                             </transformers>
                         </configuration>

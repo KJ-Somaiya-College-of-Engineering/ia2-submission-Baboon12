@@ -1,7 +1,7 @@
-ia\com\msd\shopping\stockmanager\StockManagerApplication.class
-ia\com\msd\shopping\stockmanager\services\StockService.class
-ia\com\msd\shopping\stockmanager\repositories\StockRepository.class
-ia\com\msd\shopping\stockmanager\config\DataGenerator.class
-ia\com\msd\shopping\stockmanager\model\Stock.class
-ia\com\msd\shopping\stockmanager\resources\StockResource.class
-ia\com\msd\shopping\stockmanager\exceptions\StockNotFoundException.class
+in\com\ia\msd\stockmanager\model\Stock.class
+in\com\ia\msd\stockmanager\repositories\StockRepository.class
+in\com\ia\msd\stockmanager\services\StockService.class
+in\com\ia\msd\stockmanager\exceptions\StockNotFoundException.class
+in\com\ia\msd\stockmanager\config\DataGenerator.class
+in\com\ia\msd\stockmanager\resources\StockResource.class
+in\com\ia\msd\stockmanager\StockManagerApplication.class

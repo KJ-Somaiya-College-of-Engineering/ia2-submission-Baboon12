@@ -1,6 +1,12 @@
 ia\com\msd\shopping\productcatalogue\ProductServiceApplication.class
-ia\com\msd\shopping\productcatalogue\services\ProductService.class
+in\com\ia\msd\productcatalogue\services\ProductService.class
 ia\com\msd\shopping\productcatalogue\configuration\ProductServiceConfiguration.class
 ia\com\msd\shopping\productcatalogue\resources\ProductResource.class
+in\com\ia\msd\productcatalogue\model\Product.class
+in\com\ia\msd\productcatalogue\resources\ProductResource.class
+ia\com\msd\shopping\productcatalogue\services\ProductService.class
+in\com\ia\msd\productcatalogue\configuration\ProductServiceConfiguration.class
+in\com\ia\msd\productcatalogue\ProductServiceApplication.class
 ia\com\msd\shopping\productcatalogue\model\Product.class
 ia\com\msd\shopping\productcatalogue\healthchecks\BasicHealthCheck.class
+in\com\ia\msd\productcatalogue\healthchecks\BasicHealthCheck.class
