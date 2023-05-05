@@ -10,9 +10,9 @@ spec:
   selector:
     app: shopfront
   ports:
-  - protocol: TCP
-    port: 8010
-    name: http
+    - protocol: TCP
+      port: 8010
+      name: http
 
 ---
 apiVersion: apps/v1
@@ -30,13 +30,20 @@ spec:
         app: shopfront
     spec:
       containers:
-      - name: shopfront
-        image: bhavyasura/shopfront
-        ports:
-        - containerPort: 8010
-        livenessProbe:
-          httpGet:
-            path: /health
-            port: 8010
-          initialDelaySeconds: 30
-          timeoutSeconds: 1
+        - name: shopfront
+          image: bhavyasura/shopfront
+          ports:
+            - containerPort: 8010
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8010
+            initialDelaySeconds: 30
+            timeoutSeconds: 1
+          resources:
+            limits:
+              memory: 512Mi
+              cpu: "1"
+            requests:
+              memory: 256Mi
+              cpu: "0.2"

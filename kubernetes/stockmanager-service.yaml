@@ -10,9 +10,9 @@ spec:
   selector:
     app: stockmanager
   ports:
-  - protocol: TCP
-    port: 8030
-    name: http
+    - protocol: TCP
+      port: 8030
+      name: http
 
 ---
 apiVersion: apps/v1
@@ -20,7 +20,6 @@ kind: Deployment
 metadata:
   name: stockmanager
 spec:
-  spec:
   selector:
     matchLabels:
       app: stockmanager
@@ -31,13 +30,20 @@ spec:
         app: stockmanager
     spec:
       containers:
-      - name: stockmanager
-        image: bhavyasura/stock_manager
-        ports:
-        - containerPort: 8030
-        livenessProbe:
-          httpGet:
-            path: /health
-            port: 8030
-          initialDelaySeconds: 30
-          timeoutSeconds: 1
+        - name: stockmanager
+          image: bhavyasura/stock_manager
+          resources:
+            limits:
+              memory: 512Mi
+              cpu: "1"
+            requests:
+              memory: 256Mi
+              cpu: "0.2"
+          ports:
+            - containerPort: 8030
+          livenessProbe:
+            httpGet:
+              path: /health
+              port: 8030
+            initialDelaySeconds: 30
+            timeoutSeconds: 1
